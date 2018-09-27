@@ -17,7 +17,7 @@ public class ProblemSet2 {
 	String last = in.nextLine();
 	String full = "Hello, " + first + " "+ last + "!";
 	System.out.println(full);
-	
+	in.close();
 	}
 	
 	public void gradeMe() {
@@ -45,7 +45,7 @@ public class ProblemSet2 {
 	double avgtest = ((testone + test two + testthree)/3)*0.55;
 	Double final = avghome + avgquiz + avg test;
 	System.out.println(final + "%");
-
+	in.close();
 	
 	}
 	
@@ -60,7 +60,7 @@ public class ProblemSet2 {
 		double remainder = total%46.00;
 		System.out.println("Buses: " + bus);
 		System.out.println("Last Bus contains:" + remainder);
-
+		in.close();
 	}
 	
 	public void info() {
@@ -83,7 +83,7 @@ public class ProblemSet2 {
 		System.out.println(two);
 		System.out.println(three);
 		System.out.println(four);
-
+		in.close();
 	}
 	
 	public void initials() {
@@ -98,6 +98,6 @@ public class ProblemSet2 {
 		String last = in.nextLine();
 		char l = in.nextLine().charAt(0);
 		System.out.println("Your intials are " + f + m + l + ".");
-
+		in.close();
 	}
 }
