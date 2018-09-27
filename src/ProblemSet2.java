@@ -22,9 +22,30 @@ public class ProblemSet2 {
 	
 	public void gradeMe() {
 	Scanner in = new Scanner(System.in);
-	System.out.println("Enter your homework score please");
-	System.out.println("Enter your quiz score please");
-	System.out.println("Enter your test score please");
+	System.out.println("Please enter your first homework score: ");
+	int homeone = in.nextInt();
+	System.out.println("Please enter your second homework score: ");
+	int hometwo = in.nextInt();
+	System.out.println("Please enter your third homework score: ");
+	int homethree = in.nextInt();
+	System.out.println("Please enter your first quiz score: ");
+	int quizone = in.nextInt();
+	System.out.println("Please enter your second quiz score: ");
+	int quiztwo = in.nextInt();
+	System.out.println("Please enter your third quiz score: ");
+	int quizthree = in.nextInt();
+	System.out.println("Please enter your first test score: ");
+	int testone = in.nextInt();
+	System.out.println("Please enter your second test score: ");
+	int testtwo = in.nextInt();
+	System.out.println("Please enter your third test score: ");
+	int testthree = in.nextInt();
+	double avghome = ((homeone + hometwo + homethree)/3)*0.15; 
+	double avgquiz = ((quizone + quiztwo + quizthree)/3)*0.30;
+	double avgtest = ((testone + test two + testthree)/3)*0.55;
+	Double final = avghome + avgquiz + avg test;
+	System.out.println(final + "%");
+
 	
 	}
 	
